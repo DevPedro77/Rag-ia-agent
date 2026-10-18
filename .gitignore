@@ -1,0 +1,18 @@
+# Ambientes virtuais
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Segredos — NUNCA comitar
+.env
+
+# Base vetorial gerada (reconstruível via `python ingerir.py`)
+chroma_db/
+
+# PDFs (descomente se forem material privado)
+# dados/pdfs/*.pdf
+
+.DS_Store
+.idea/
+.vscode/
